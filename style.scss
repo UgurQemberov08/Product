@@ -25,12 +25,16 @@ html{
     nav{
         width: 100%;
         border-bottom: 1px solid #D1D1D8;
-        padding: 2em 4em;
+        padding: 1.4em 4em;
         display: flex;
         align-items: center;
         justify-content: space-between;
         position: relative;
-        margin-bottom: 5.4em;
+        position: sticky;
+        top: 0;
+        margin-bottom: 5em;
+        background: #fff;
+        z-index: 1000;
 
         .logo{
             font-size: 2.4em;
@@ -97,7 +101,6 @@ html{
         }
 
     }
-    /*Nav bar ended*/
 
     /*Movement section started*/
     .movement{
@@ -175,7 +178,6 @@ html{
             }
         }
     } 
-    /*Movement section ended*/
     
     /*Hero section started*/
     .hero{
@@ -381,7 +383,6 @@ html{
             }
         }
     }
-    /*Hero section ended*/
 
 
 
