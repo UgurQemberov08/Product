@@ -250,6 +250,7 @@ html {
   border-radius: 0.4em;
 }
 .container .hero .left-hero-c .buttons-c .rise span {
+  width: 1vw;
   font-weight: 600;
   font-size: 1.4em;
   cursor: pointer;
